@@ -1,0 +1,33 @@
+.single-user {
+  width: 20%;
+  display: flex;
+  gap: 15px;
+  color: #bec6cd;
+  margin-bottom: 10px;
+  padding: 20px;
+  box-shadow: 4px 4px 20px black;
+  border-radius: 6px;
+}
+
+.user-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.user-name {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.user-link:link,
+.user-link:visited {
+  text-decoration: none;
+  color: rgba(219, 229, 238, 0.6);
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.user-link:link:hover,
+.user-link:visited:hover {
+  color: #bec6cd;
+}

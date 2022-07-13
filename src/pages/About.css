@@ -1,0 +1,12 @@
+.about {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #bec6cd;
+}
+
+.about-header {
+  font-size: 28px;
+}

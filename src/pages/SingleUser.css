@@ -1,0 +1,88 @@
+.single-main {
+  color: #bec6cd;
+  margin: 60px 90px 0 90px;
+}
+
+.main-top {
+  display: flex;
+}
+
+.profile-picture {
+  position: relative;
+}
+
+.profile-picture img {
+  width: 80%;
+  border-radius: 6px;
+}
+
+.user-hire {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.user-hire div {
+  font-size: 60%;
+  background-color: #ffffff42;
+  padding: 3px 5px;
+  border-radius: 100px;
+}
+
+.github-link:link,
+.github-link:visited {
+  text-decoration: none;
+  border: 1px solid #bec6cd;
+  color: #bec6cd;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.user-bio {
+  margin-bottom: 40px;
+}
+
+.user-additional-info {
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+  width: 700px;
+}
+
+.user-additional-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  box-shadow: 2px 2px 20px black;
+}
+
+.main-center {
+  margin-top: 30px;
+  display: flex;
+  box-shadow: 2px 2px 20px black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-center-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-center-content p {
+  margin: 0;
+}
+
+.main-center-content div {
+  padding: 20px 0 0 20px;
+}
+
+.main-icon {
+  font-size: 50px;
+  padding-right: 70px;
+  color: white;
+}

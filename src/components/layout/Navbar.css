@@ -1,0 +1,39 @@
+.navbar {
+  height: 60px;
+  background-color: #161b22;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.github-logo {
+  font-size: 34px;
+  margin-right: 20px;
+}
+
+.navbar-text:link,
+.navbar-text:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  transition: all 0.3s;
+}
+
+.navbar-right {
+  margin-right: 30px;
+}
+
+.navbar-text:link:hover,
+.navbar-text:visited:hover {
+  color: rgb(213, 203, 186);
+}
